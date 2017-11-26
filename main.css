@@ -1,0 +1,131 @@
+header{
+  height:80px;
+  background-color: black;
+  margin-bottom: 0px;
+
+}
+header img{
+  width:40px;
+  height: 40px;
+  position: absolute;
+  top:30px;
+  left:50px;
+}
+.header_name{
+  color:white;
+  font-size:32px;
+  font-family: sans-serif;
+  position:absolute;
+  top:30px;
+  left:90px;
+}
+.top_menu{
+  text-align: right;
+  font-size: 22px;
+  position: absolute;
+  top:30px;
+  right:70px;
+}
+.top_menu ul{
+  padding:0;
+  margin: 0;
+  list-style:none;
+
+}
+.top_menu li{
+  display: inline;
+  padding: 15px;
+  vertical-align: middle;
+  color:white;
+  font-weight: bold;
+}
+.top_menu a{
+  text-decoration: none;
+  padding: 8px 8px 8px 8px;
+  color:white;
+  vertical-align: middle;
+}
+.top_menu a:hover{
+  color:green;
+
+}
+.main{
+  background-image: url("back1.jpg");
+  background-size:cover;
+  height:500px;
+  margin-top: 0;
+}
+.quote{
+
+  position: absolute;
+  top:100px;
+  left: 200px;
+  right:200px;
+color:white;
+}
+.quote1{
+
+  font-size: 80px;
+  font-weight: bold;
+
+}
+blockquote{
+  font-size: 40px;
+  font-weight: bold;
+  align-items: center;
+  position: relative;
+  left:80px;
+}
+.input_box{
+  position: relative;
+  left:300px;
+  top:0;
+}
+.quote .input_box input{
+  width:250px;
+  height:45px;
+}
+.sign_up{
+  background-color:green;
+  width:100px;;
+  height:45px;
+  color:white;
+  padding: 8px;
+  border-radius: 10px;
+  border: 0;
+  margin-left:5px;
+}
+
+ .main_login_input::-webkit-input-placeholder{
+  font-family:'myfont',arial;
+  font-size: 20px;
+
+  line-height:20px;
+}
+.quote2{
+  margin-left:100px;
+  margin-right:100px;
+  font-size: 45px;
+  font-weight: bold;
+  display:inline-block;
+}
+quote2 blockquote{
+  margin-top:0;
+  padding-top: 0
+}
+
+.premium_img img{
+  width:250px;
+  height: 200px;
+  padding-right: 70px;
+
+}
+.images .list ul{
+  list-style: none;
+  font-size:18px;
+  font-weight: bold;
+}
+.images .list li{
+  display: inline;
+  padding-right:140px;
+}
